@@ -1,11 +1,16 @@
 body {
   *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
+    &:focus {
+      outline:none;
+    }
   }
+  font: 14px/1 $openSans;
   background: #fff;
   background-size: cover;
   line-height: 1;
-  font: 14px/1 $regular;
   margin: 0 auto;
   color: #fff;
   img {

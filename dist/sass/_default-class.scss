@@ -1,0 +1,70 @@
+//BUTTON FOR SLIDER
+.btn {
+  font-size: 1.9em;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  padding: 15px 35px;
+  background: transparent;
+  display: inline-block;
+  -webkit-transition: .25s;
+  -moz-transition: .25s;
+  -ms-transition: .25s;
+  -o-transition: .25s;
+  transition: .25s;
+  &:hover {
+    border: 3px solid rgba(255, 255, 255, .0);
+    background: rgba(255, 255, 255, .3);
+    color: #1a7c7d;
+  }
+  &.btn-gray{
+    background: $colorGray;
+    border: 3px solid $colorGray;
+    color: #fff;
+    font: 1.3em/1 $openSansSemiBold;
+    padding: 9px 47px;
+  }
+  &.btn-blue{
+    background: $colorBlue;
+    border: 3px solid $colorBlue;
+    color: #fff;
+    font: 1.3em/1 $openSansSemiBold;
+    padding: 9px 47px;
+    &:hover{
+      background: $colorGray;
+      border: 3px solid $colorGray;
+    }
+  }
+}
+//TITLE
+.title{
+  font:3em/1 $openSans;
+  text-align: center;
+}
+//CONTAINER
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  @media(max-width: 1200px) {
+    width: 991px;
+  }
+  @media(max-width: 991px) {
+    width: 768px;
+  }
+  @media(max-width: 768px) {
+    width: 100%;
+  }
+}
+//ROW FOR CONTAINER
+.row{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+//FLOAT LEFT - RIGHT
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
